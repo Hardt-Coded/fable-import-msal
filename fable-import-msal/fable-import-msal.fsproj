@@ -12,6 +12,7 @@
     <Description>Fable Import for MSAL version 1.2.1 and maybe higher, when no breaking changes are comming.</Description>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageTags>fsharp fable import msal</PackageTags>
+    <PackageProjectUrl>https://github.com/DieselMeister/fable-import-msal</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
