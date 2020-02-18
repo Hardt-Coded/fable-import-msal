@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Version>0.0.1</Version>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Fable.Import.Msal</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="MsalTypes.fs" />
+    <Compile Include="TelemetryEvent.fs" />
+    <Compile Include="TelemetryTypes.fs" />
+    <Compile Include="Logger.fs" />
+    <Compile Include="Configuration.fs" />
+    <Compile Include="BrowserStorage.fs" />
+    <Compile Include="AccessTokenKey.fs" />
+    <Compile Include="AccessTokenValue.fs" />
+    <Compile Include="AccessTokenCacheItem.fs" />
+    <Compile Include="AuthCache.fs" />
+    <Compile Include="IUri.fs" />
+    <Compile Include="Authority.fs" />
+    <Compile Include="ClientInfo.fs" />
+    <Compile Include="IdToken.fs" />
+    <Compile Include="Account.fs" />
+    <Compile Include="AuthenticationParameters.fs" />
+    <Compile Include="AuthError.fs" />
+    <Compile Include="AuthResponse.fs" />
+    <Compile Include="UserAgentApplication.fs" />
+  </ItemGroup>
+
+  <!-- Add source files to package -->
+  <ItemGroup>
+    <Content Include="*.fsproj; *.fs" PackagePath="fable\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Fable.Browser.Dom" Version="1.1.0" />
+    <PackageReference Include="Fable.Core" Version="3.1.5" />
+  </ItemGroup>
+
+</Project>
