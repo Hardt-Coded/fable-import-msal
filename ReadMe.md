@@ -116,8 +116,8 @@ https://github.com/AzureAD/microsoft-authentication-library-for-js
                     if (account = null) then
                         return Error "account missing, user maybe not logged in."
                     else
-                        let authParams = Authorization.getAuthenticationParameters(Some account)
-                        let! authResponse = Authorization.aquireToken(authParams)
+                        let authParams = getAuthenticationParameters(Some account)
+                        let! authResponse = aquireToken(authParams)
                         
                         let! result = getFancyResponseFromFancyApiAsync authResponse.accessToken
                         
