@@ -2,6 +2,14 @@
 
 https://github.com/AzureAD/microsoft-authentication-library-for-js
 
+### Nuget:
+
+https://www.nuget.org/packages/Fable.Import.Msal.From12/ 
+
+```Fable.Import.Msal.From12```
+
+`Fable.Import.Msal` war already taken, but seems to work only with an older version.
+
 ### Usage:
 
 1. add this package to you project. Ether use `paket` oder `nuget` directly.
