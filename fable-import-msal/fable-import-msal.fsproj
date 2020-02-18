@@ -1,9 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <Version>0.0.1</Version>
+    <Version>0.0.1-beta</Version>
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Fable.Import.Msal</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>Fable.Import.Msal.From12</PackageId>
+    <Authors>Daniel Hardt</Authors>
+    <Description>Fable Import for MSAL version 1.2.1 and maybe higher, when no breaking changes are comming.</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageTags>fsharp fable import msal</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
